@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\myrandom">
+      <UniqueIdentifier>{ea59ba6e-d2b5-4d14-bbb6-e10e79f1b09b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\myrandom">
+      <UniqueIdentifier>{7200d316-72c4-4a55-bd18-27a9af46c583}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\goexit">
+      <UniqueIdentifier>{fb4d7600-7b43-485d-a810-aac71fb9b01b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\goexit">
+      <UniqueIdentifier>{357449c9-47af-4e31-b340-5347f3961cc0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="myrandom\myrand.h">
+      <Filter>ヘッダー ファイル\myrandom</Filter>
+    </ClInclude>
+    <ClInclude Include="myrandom\myrandavx512.h">
+      <Filter>ヘッダー ファイル\myrandom</Filter>
+    </ClInclude>
+    <ClInclude Include="myrandom\myrandsfmt.h">
+      <Filter>ヘッダー ファイル\myrandom</Filter>
+    </ClInclude>
+    <ClInclude Include="goexit\goexit.h">
+      <Filter>ヘッダー ファイル\goexit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFMT-src-1.5.1\SFMT.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pseudorandomnumbercompare.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="goexit\goexit.cpp">
+      <Filter>ソース ファイル\goexit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SFMT-src-1.5.1\SFMT.c">
+      <Filter>ソース ファイル\myrandom</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
